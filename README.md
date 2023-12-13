@@ -25,3 +25,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 
 
 **Divirta-se programando em Dart!** 🚀
+
+- [Site para estudos e exercícios: ] - (https://www.beecrowd.com.br/)
