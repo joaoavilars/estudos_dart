@@ -1,3 +1,3 @@
 main() {
-  print(32 + 5);
+  print('Hello World!');
 }
