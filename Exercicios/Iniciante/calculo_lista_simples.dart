@@ -1,11 +1,12 @@
 import 'dart:io';
 
 void main() {
-  // no caso desse código ele necessita de duas linhas em sequencia
-  // exemplo de entrada:
-  // 12 1 5.30
-  // 16 2 5.10
-  // a linha abaixo le a linha de digitada separada por espaços e gera uma lista. no caso o split no final define o separador dos itens da lista
+  /* 
+  no caso desse código ele necessita de duas linhas em sequencia
+   exemplo de entrada:
+   12 1 5.30
+   16 2 5.10
+   a linha abaixo le a linha de digitada separada por espaços e gera uma lista. no caso o split no final define o separador dos itens da lista */
   List<String> lista1 = stdin.readLineSync()!.split(' ');
   int codPeca1 = int.parse(lista1[0]);
   int numPeca1 = int.parse(lista1[1]);

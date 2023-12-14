@@ -1,5 +1,17 @@
 import 'dart:io';
 
+/*
+A entrada de dados deve ser feito em linha:
+
+Exemplos:
+
+3.0 4.0 5.2
+
+12.7 10.4 15.2
+
+
+*/
+
 void main() {
   List<String> dados = stdin.readLineSync()!.split(' ');
   double pi = 3.14159;
